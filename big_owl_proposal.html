@@ -57,13 +57,16 @@
   <div class="hero-content">
     <div class="eyebrow-chip">🌴 Private Proposal &nbsp;·&nbsp; Summer 2026</div>
     <h1 class="hero-h1">You're Leaving<br><span class="gold">$672,000</span> on the Dock.</h1>
-    <p class="hero-sub">I found it. I know how to get it. <strong>And I'll take every dollar of risk to prove it.</strong><br>No upfront cost. No monthly retainer. You only pay me when I grow your revenue.</p>
+    <p class="hero-sub">I want to reel it in for you. You're doing everything right: Raving regulars and a 20-year legacy — but what happens if you pull a few levers to increase daily revenue?<br>No upfront cost. No monthly retainer. You only pay me when I grow your revenue.</p>
+    <div class="hero-disclaimer-box fi">
+      <p class="hero-illus">The numbers below are for illustration only, based on my best estimate, accounting for peak Memorial Day revenue of $21K, and a readjustment for April/October shoulder season.</p>
+    </div>
     <div class="hero-stats">
       <div><span class="hstat-num">$0</span><span class="hstat-lbl">Your Upfront Cost</span></div>
       <div><span class="hstat-num">$693K</span><span class="hstat-lbl">Current Season Baseline</span></div>
       <div><span class="hstat-num">$1.4M</span><span class="hstat-lbl">Revenue Target</span></div>
       <div><span class="hstat-num">+97%</span><span class="hstat-lbl">Growth in Season 1</span></div>
-      <div><span class="hstat-num">2 wks</span><span class="hstat-lbl">Until Opening</span></div>
+      <div><span class="hstat-num">8 days</span><span class="hstat-lbl">Until Opening</span></div>
     </div>
     <a href="#now" class="hero-cta">Show Me the Money &nbsp;→</a>
   </div>
@@ -569,6 +572,7 @@
   <div class="sec-ew fi">The Offer</div>
   <h2 class="sec-h2 fi">You Don't Pay Me<br>Unless I Grow Your Revenue.</h2>
   <p class="sec-sub fi">No retainer. No monthly fee. Nothing in this deck locks in rates — <strong>we align on structure in person.</strong> Here's what each side is expected to bring.</p>
+  <p class="sec-sub fi"><strong>Performance marketing</strong> is paid media and content aimed at <strong>measurable results</strong> — visits, redemptions, and revenue you can see in your numbers, not vague “awareness.” <strong>We agree on targets together</strong> (what counts as success and by when), and <strong>we agree on my compensation only if those targets are hit</strong> — structure, amount, and timing get spelled out in the agreement, not buried in this deck.</p>
 
   <div class="deal-grid fi">
     <div class="deal-card theirs">
@@ -621,7 +625,7 @@
 ═══════════════════════════════════════ -->
 <section class="sec">
   <div class="sec-ew fi">What Happens Next</div>
-  <h2 class="sec-h2 fi">Two Weeks Until Opening.<br>Here's How We Use Them.</h2>
+  <h2 class="sec-h2 fi"><span id="opening-h2-line1"><span id="opening-days-headline">…</span> until opening.</span><br>Here's How We Use Them.</h2>
   <p class="sec-sub fi">Speed is the only advantage we need. The bar next door has a head start — but they don't know what's coming.</p>
   <div class="timeline fi">
     <div class="tl-item">
@@ -660,9 +664,9 @@
 <div id="close">
 <section class="sec" style="max-width:100%;padding:100px 48px;text-align:center;background:linear-gradient(180deg,transparent,rgba(247,184,1,.04));">
   <div class="close-inner">
-    <div class="sec-ew fi" style="text-align:center;margin-bottom:14px">Two Weeks. One Decision.</div>
+    <div class="sec-ew fi" style="text-align:center;margin-bottom:14px" id="close-days-eyebrow">… One Decision.</div>
     <h2 class="close-h2 fi">You Risk <span class="coral">Nothing.</span><br>You Gain <span class="gold">Everything.</span></h2>
-    <p class="close-sub fi">The neighbor figured it out. Your customers are already on their phones. The season opens in two weeks. This deal doesn't get better with time — it just gets closer to "too late."</p>
+    <p class="close-sub fi">The neighbor figured it out. Your customers are already on their phones. <span id="close-season-opens">The season opens in …</span> This deal doesn't get better with time — it just gets closer to "too late."</p>
 
     <div class="close-cards fi">
       <div class="cc">
@@ -740,6 +744,7 @@
 
 <footer>🦉 The Big Owl Tiki Bar — Private Marketing Proposal — Summer 2026</footer>
 
+<script src="js/countdown.js"></script>
 <script>
 // ── SCROLL FADE-INS ─────────────────────────
 const fis = document.querySelectorAll('.fi');
@@ -781,9 +786,10 @@ function update() {
   sliderLbl.textContent = mult.toFixed(1) + '× — ' + label(mult);
   rcTotal.textContent   = fmt(total);
 }
-slider.addEventListener('input', update);
-update();
+if (slider && sFill && multNum && sliderLbl && rcTotal) {
+  slider.addEventListener('input', update);
+  update();
+}
 </script>
-<script src="js/countdown.js"></script>
 </body>
 </html>
