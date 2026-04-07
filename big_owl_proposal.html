@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Big Owl Tiki Bar — The Offer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+<div id="countdown-banner" class="countdown-banner" role="status" aria-live="polite" hidden>
+  <span class="countdown-banner-msg">Opening Day <strong>April 15</strong></span>
+  <span class="countdown-banner-time" id="countdown-display"></span>
+</div>
+
+<!-- ═══════════════════════════════════════
+     NAV
+═══════════════════════════════════════ -->
+<nav>
+  <a href="#hero" class="nav-logo">🦉 The Big Owl</a>
+  <ul class="nav-links">
+    <li><a href="#now">Today</a></li>
+    <li><a href="#marketing">Marketing</a></li>
+    <li><a href="#uplift">Uplift</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#calculator">Numbers</a></li>
+    <li><a href="#deal">The Deal</a></li>
+    <li><a href="#close">Let's Go</a></li>
+  </ul>
+  <a href="#deal" class="nav-mob-cta">See the Deal →</a>
+</nav>
+
+<!-- ═══════════════════════════════════════
+     HERO
+═══════════════════════════════════════ -->
+<section id="hero" style="max-width:100%;padding-left:32px;padding-right:32px;padding-top:80px;min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative;overflow:hidden;">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="eyebrow-chip">🌴 Private Proposal &nbsp;·&nbsp; Summer 2026</div>
+    <h1 class="hero-h1">You're Leaving<br><span class="gold">$672,000</span> on the Dock.</h1>
+    <p class="hero-sub">I found it. I know how to get it. <strong>And I'll take every dollar of risk to prove it.</strong><br>No upfront cost. No monthly retainer. You only pay me when I grow your revenue.</p>
+    <div class="hero-stats">
+      <div><span class="hstat-num">$0</span><span class="hstat-lbl">Your Upfront Cost</span></div>
+      <div><span class="hstat-num">$693K</span><span class="hstat-lbl">Current Season Baseline</span></div>
+      <div><span class="hstat-num">$1.4M</span><span class="hstat-lbl">Revenue Target</span></div>
+      <div><span class="hstat-num">+97%</span><span class="hstat-lbl">Growth in Season 1</span></div>
+      <div><span class="hstat-num">2 wks</span><span class="hstat-lbl">Until Opening</span></div>
+    </div>
+    <a href="#now" class="hero-cta">Show Me the Money &nbsp;→</a>
+  </div>
+  <div class="scroll-hint">↓ &nbsp; scroll</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     CURRENT STATE
+═══════════════════════════════════════ -->
+<div id="now">
+<section class="sec">
+  <div class="sec-ew fi">The Honest Numbers</div>
+  <h2 class="sec-h2 fi">$526,000 Walks In on<br>Friday, Saturday, and Sunday.<br>Monday & Tuesday? You're Closed.</h2>
+  <p class="sec-sub fi">You're open <strong>Wednesday through Sunday</strong> — and on those nights, <strong>the dock isn't sitting empty</strong>. <strong>Only Monday and Tuesday does the dock sit empty</strong>: you're closed, so those two days earn $0 today. <strong>Wednesday through Sunday</strong> already has boats and bodies; the targets below are about growing revenue on nights you're already open. The weekend still carries most of the season — and Fri–Sun can climb further. Here's exactly what the math looks like right now.</p>
+
+  <div class="day-grid fi">
+    <!-- MON -->
+    <div class="day-col">
+      <div class="day-bar-wrap" style="flex-direction:column;gap:0;">
+        <div style="width:100%;flex:1;"></div>
+        <div style="width:100%;height:10%;border:2px dashed rgba(247,184,1,0.5);border-bottom:none;border-radius:7px 7px 0 0;background:rgba(247,184,1,0.07);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <span style="font-size:.6rem;color:var(--gold);font-weight:700">+$2K</span>
+        </div>
+      </div>
+      <div class="day-lbl">Mon</div>
+      <div style="font-size:.58rem;color:var(--coral);font-weight:700;text-transform:uppercase;letter-spacing:.4px;margin-bottom:2px;">Closed</div>
+      <div class="day-amt">$0 <span style="color:var(--gold);font-size:.65rem;font-weight:700">→ $2K</span></div>
+    </div>
+    <!-- TUE -->
+    <div class="day-col">
+      <div class="day-bar-wrap" style="flex-direction:column;gap:0;">
+        <div style="width:100%;flex:1;"></div>
+        <div style="width:100%;height:10%;border:2px dashed rgba(247,184,1,0.5);border-bottom:none;border-radius:7px 7px 0 0;background:rgba(247,184,1,0.07);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <span style="font-size:.6rem;color:var(--gold);font-weight:700">+$2K</span>
+        </div>
+      </div>
+      <div class="day-lbl">Tue</div>
+      <div style="font-size:.58rem;color:var(--coral);font-weight:700;text-transform:uppercase;letter-spacing:.4px;margin-bottom:2px;">Closed</div>
+      <div class="day-amt">$0 <span style="color:var(--gold);font-size:.65rem;font-weight:700">→ $2K</span></div>
+    </div>
+    <!-- WED -->
+    <div class="day-col">
+      <div class="day-bar-wrap" style="flex-direction:column;gap:0;">
+        <div style="width:100%;flex:1;border:2px dashed rgba(247,184,1,0.5);border-bottom:none;border-radius:7px 7px 0 0;background:rgba(247,184,1,0.07);display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:.6rem;color:var(--gold);font-weight:700">+$4K</span>
+        </div>
+        <div class="day-bar wkdy" style="height:20%;flex-shrink:0;border-radius:0"></div>
+      </div>
+      <div class="day-lbl">Wed</div>
+      <div class="day-amt">$3.5K <span style="color:var(--gold);font-size:.65rem;font-weight:700">→ $7.5K</span></div>
+    </div>
+    <!-- THU -->
+    <div class="day-col">
+      <div class="day-bar-wrap" style="flex-direction:column;gap:0;">
+        <div style="width:100%;flex:1;border:2px dashed rgba(247,184,1,0.5);border-bottom:none;border-radius:7px 7px 0 0;background:rgba(247,184,1,0.07);display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:.6rem;color:var(--gold);font-weight:700">+$5K</span>
+        </div>
+        <div class="day-bar wkdy" style="height:25%;flex-shrink:0;border-radius:0"></div>
+      </div>
+      <div class="day-lbl">Thu</div>
+      <div class="day-amt">$3.5K <span style="color:var(--gold);font-size:.65rem;font-weight:700">→ $8.5K</span></div>
+    </div>
+    <!-- FRI: current 60%, target 85% → empty 15%, ext 25%, bar 60% -->
+    <div class="day-col">
+      <div class="day-bar-wrap" style="flex-direction:column;gap:0;">
+        <div style="width:100%;height:15%;flex-shrink:0;"></div>
+        <div style="width:100%;height:25%;flex-shrink:0;border:2px dashed rgba(247,184,1,0.5);border-bottom:none;border-radius:7px 7px 0 0;background:rgba(247,184,1,0.07);display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:.6rem;color:var(--gold);font-weight:700">+$5K</span>
+        </div>
+        <div class="day-bar wknd" style="height:60%;flex-shrink:0;border-radius:0"></div>
+      </div>
+      <div class="day-lbl">Fri</div>
+      <div class="day-amt">$8.7K <span style="color:var(--gold);font-size:.65rem;font-weight:700">→ $13.7K</span></div>
+    </div>
+    <!-- SAT: current 75%, target 100% → ext 25%, bar 75% -->
+    <div class="day-col">
+      <div class="day-bar-wrap" style="flex-direction:column;gap:0;">
+        <div style="width:100%;height:25%;flex-shrink:0;border:2px dashed rgba(247,184,1,0.5);border-bottom:none;border-radius:7px 7px 0 0;background:rgba(247,184,1,0.07);display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:.6rem;color:var(--gold);font-weight:700">+$5K</span>
+        </div>
+        <div class="day-bar wknd" style="height:75%;flex-shrink:0;border-radius:0"></div>
+      </div>
+      <div class="day-lbl">Sat</div>
+      <div class="day-amt">$8.7K <span style="color:var(--gold);font-size:.65rem;font-weight:700">→ $13.7K</span></div>
+    </div>
+    <!-- SUN: current 50%, target 75% → empty 25%, ext 25%, bar 50% -->
+    <div class="day-col">
+      <div class="day-bar-wrap" style="flex-direction:column;gap:0;">
+        <div style="width:100%;height:25%;flex-shrink:0;"></div>
+        <div style="width:100%;height:25%;flex-shrink:0;border:2px dashed rgba(247,184,1,0.5);border-bottom:none;border-radius:7px 7px 0 0;background:rgba(247,184,1,0.07);display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:.6rem;color:var(--gold);font-weight:700">+$5K</span>
+        </div>
+        <div class="day-bar wknd" style="height:50%;flex-shrink:0;border-radius:0"></div>
+      </div>
+      <div class="day-lbl">Sun</div>
+      <div class="day-amt">$4.5K <span style="color:var(--gold);font-size:.65rem;font-weight:700">→ $9.5K</span></div>
+    </div>
+  </div>
+
+  <div style="display:flex;align-items:center;gap:16px;margin:-8px 0 28px;font-size:.75rem;color:var(--muted);flex-wrap:wrap;" class="fi">
+    <span style="display:inline-flex;align-items:center;gap:6px"><span style="width:12px;height:12px;border-radius:2px;background:linear-gradient(180deg,#0d6b82,#075064);display:inline-block"></span> Current revenue</span>
+    <span style="display:inline-flex;align-items:center;gap:6px"><span style="width:12px;height:12px;border-radius:2px;border:2px dashed rgba(247,184,1,0.6);display:inline-block"></span> Target with marketing</span>
+    <span style="display:inline-flex;align-items:center;gap:6px"><span style="width:12px;height:12px;border-radius:2px;background:linear-gradient(180deg,var(--gold2),var(--gold));display:inline-block"></span> Weekend current</span>
+    <span style="font-size:.72rem;color:var(--cream);opacity:.95">· Dock empty Mon & Tue only · Open Wed–Sun</span>
+  </div>
+
+  <div class="card card-gold fi" style="margin-bottom:28px;display:flex;align-items:center;gap:24px;flex-wrap:wrap;">
+    <div style="font-size:2rem">📅</div>
+    <div style="flex:1;min-width:200px">
+      <div style="font-weight:700;font-size:.97rem;margin-bottom:4px">Every Night Has a Target — Total Uplift: $672K</div>
+      <div style="font-size:.8rem;color:var(--muted)">Mon +$2K, Tue +$2K (from <strong style="color:var(--cream)">opening two closed nights</strong>), Wed +$4K, Thu +$5K, Fri +$5K, Sat +$5K, Sun +$5K = <strong style="color:var(--cream)">+$28K/week</strong> × 24 weeks. That's $672,000 in new season revenue from day-level targeting alone — before the overall revenue multiplier from marketing.</div>
+    </div>
+    <div style="text-align:center;flex-shrink:0">
+      <div style="font-family:'DM Serif Display',serif;font-size:2rem;color:var(--gold)">+$672K</div>
+      <div style="font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Per Season</div>
+    </div>
+  </div>
+
+  <div class="g3 fi">
+    <div class="card card-gold">
+      <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--gold);margin-bottom:8px">Weekend Revenue (Fri–Sun)</div>
+      <div style="font-family:'DM Serif Display',serif;font-size:2rem;">$526,000</div>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:5px">$21.9K/week × 24 weeks — ~76% of the season</div>
+    </div>
+    <div class="card">
+      <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--teal);margin-bottom:8px">Overall Current Baseline</div>
+      <div style="font-family:'DM Serif Display',serif;font-size:2rem;">$693,000</div>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:5px">Full season · bar only · Open Wed–Sun · Mon & Tue closed ($0) · $28.9K/week × 24 weeks</div>
+    </div>
+    <div class="card">
+      <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--coral);margin-bottom:8px">Midweek Wed & Thu (Open Today)</div>
+      <div style="font-family:'DM Serif Display',serif;font-size:2rem;">$167,000</div>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:5px">Mon & Tue closed — Wed $3.5K + Thu $3.5K/day × 24 weeks · room to grow</div>
+    </div>
+  </div>
+  <div class="dd-wrap fi">
+    <a href="today.html" class="dd-btn">See the Full Numbers Breakdown &nbsp;→</a>
+    <div class="dd-label">Day-by-day revenue analysis · Where every dollar comes from today</div>
+  </div>
+</section>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     THE PROBLEM
+═══════════════════════════════════════ -->
+<div id="problem">
+<section class="sec">
+  <div class="sec-ew fi">The Real Problem</div>
+  <h2 class="sec-h2 fi">The Jetty Isn't Better.<br>They Just Have a Billboard.</h2>
+  <p class="sec-sub fi">They're not pouring better drinks. They don't have a better view. They figured out one thing: <strong>awareness matters</strong> — but they're doing it the old-fashioned, expensive way. They're showing a billboard to everyone driving down the highway. That drives a lot of traffic, but it also drives the <strong>wrong</strong> crowd. We're going to build a <strong>digital billboard</strong> that targets the <strong>right</strong> crowd within a <strong>20-mile radius of Kent Island</strong>.</p>
+</section>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     MARKETING CHANNELS
+═══════════════════════════════════════ -->
+<div id="marketing">
+<section class="sec">
+  <div class="sec-ew fi">How We Do It</div>
+  <h2 class="sec-h2 fi">Six Channels.<br>All Running at Once.</h2>
+  <p class="sec-sub fi">This isn't "post more on Instagram." It's a full-stack marketing system where every channel feeds the next — and every dollar spent compounds into more attention, more bookings, and more revenue.</p>
+  <div class="chan-grid fi">
+    <div class="chan-card">
+      <div class="chan-icon">📘</div>
+      <div class="chan-name">Facebook Ads</div>
+      <div class="chan-desc">Geo-targeted to the core demographic within ~20 miles of Kent Island — boaters, day-trippers, wedding guests, locals. Not a highway billboard blasting everyone; the people who actually boat to your dock.</div>
+    </div>
+    <div class="chan-card">
+      <div class="chan-icon">🔍</div>
+      <div class="chan-name">SEO</div>
+      <div class="chan-desc">Site structure, page titles, and content tuned so people searching "tiki bar Kent Island," "waterfront bar Eastern Shore," and event keywords find Big Owl in organic results — not just ads.</div>
+    </div>
+    <div class="chan-card">
+      <div class="chan-icon">📬</div>
+      <div class="chan-name">Weekly Newsletter</div>
+      <div class="chan-desc">Sent every week to <strong>members of the awards program</strong> — recaps, upcoming acts, specials, and reasons to come back. Turns your best guests into a community that shows up more often.</div>
+    </div>
+    <div class="chan-card">
+      <div class="chan-icon">📱</div>
+      <div class="chan-name">TikTok & Reels</div>
+      <div class="chan-desc">Weekly viral videos — crab races, sunset bells, cocktails. One good video in the right boating group means 50,000 new eyes on Big Owl. All shot and edited in-house.</div>
+    </div>
+    <div class="chan-card">
+      <div class="chan-icon">📸</div>
+      <div class="chan-name">Instagram</div>
+      <div class="chan-desc">Sunset shots, drink photography, event promos. Big Owl has the most photogenic dock on the Shore — we're going to make sure 50,000 people know it.</div>
+    </div>
+    <div class="chan-card">
+      <div class="chan-icon">🤳</div>
+      <div class="chan-name">Micro-Influencers</div>
+      <div class="chan-desc">Local Shore moms, fishing accounts, and lifestyle creators with 5K–50K engaged followers. More trusted than celebrities, a fraction of the cost, and their audiences actually live here.</div>
+    </div>
+  </div>
+  <div class="dd-wrap fi">
+    <a href="marketing.html" class="dd-btn">See the Full Marketing Plan &nbsp;→</a>
+    <div class="dd-label">SEO · Meta Ads · Funnels · Newsletter · TikTok · Micro-Influencers — complete breakdown</div>
+  </div>
+</section>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     UPLIFT
+═══════════════════════════════════════ -->
+<div id="uplift">
+<section class="sec">
+  <div class="sec-ew fi">The Uplift Plan</div>
+  <h2 class="sec-h2 fi">I Did the Math.<br>Every Night Has a Number.</h2>
+  <p class="sec-sub fi">Not estimates. Not "somewhere around." <strong>Exact targets, exact dollars, exact season impact.</strong> This is what changes. This is what it's worth. And every dollar is achievable with the right programming and the right marketing behind it.</p>
+
+  <div class="fi" style="overflow-x:auto;margin-bottom:32px;">
+    <table style="width:100%;border-collapse:collapse;font-size:.875rem;">
+      <thead>
+        <tr>
+          <th style="text-align:left;padding:12px 16px;font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--muted);font-weight:600;border-bottom:1px solid var(--border2);">Day</th>
+          <th style="text-align:right;padding:12px 16px;font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--muted);font-weight:600;border-bottom:1px solid var(--border2);">Current / Day</th>
+          <th style="text-align:right;padding:12px 16px;font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--gold);font-weight:600;border-bottom:1px solid var(--border2);">Target / Day</th>
+          <th style="text-align:right;padding:12px 16px;font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--muted);font-weight:600;border-bottom:1px solid var(--border2);">Weekly Gain</th>
+          <th style="text-align:right;padding:12px 16px;font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--teal);font-weight:600;border-bottom:1px solid var(--border2);">Season Impact</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:rgba(247,184,1,0.04);">
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);font-weight:600;">Monday <span style="font-size:.68rem;color:var(--coral);font-weight:600;">(closed)</span></td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--coral);">$0</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--gold);font-weight:700;">$2,000</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;">+$2,000</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--teal);font-weight:700;">+$48,000</td>
+        </tr>
+        <tr style="background:rgba(247,184,1,0.04);">
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);font-weight:600;">Tuesday <span style="font-size:.68rem;color:var(--coral);font-weight:600;">(closed)</span></td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--coral);">$0</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--gold);font-weight:700;">$2,000</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;">+$2,000</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--teal);font-weight:700;">+$48,000</td>
+        </tr>
+        <tr>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);font-weight:600;">Wednesday</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--muted);">$3,480</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--gold);font-weight:700;">$7,480</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;">+$4,000</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--teal);font-weight:700;">+$96,000</td>
+        </tr>
+        <tr>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);font-weight:600;">Thursday</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--muted);">$3,480</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--gold);font-weight:700;">$8,480</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;">+$5,000</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--teal);font-weight:700;">+$120,000</td>
+        </tr>
+        <tr>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);font-weight:600;">Friday</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--muted);">$8,695</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--gold);font-weight:700;">$13,695</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;">+$5,000</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--teal);font-weight:700;">+$120,000</td>
+        </tr>
+        <tr>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);font-weight:600;">Saturday</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--muted);">$8,695</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--gold);font-weight:700;">$13,695</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;">+$5,000</td>
+          <td style="padding:13px 16px;border-bottom:1px solid var(--border2);text-align:right;color:var(--teal);font-weight:700;">+$120,000</td>
+        </tr>
+        <tr>
+          <td style="padding:13px 16px;border-bottom:2px solid rgba(247,184,1,0.3);font-weight:600;">Sunday</td>
+          <td style="padding:13px 16px;border-bottom:2px solid rgba(247,184,1,0.3);text-align:right;color:var(--muted);">$4,525</td>
+          <td style="padding:13px 16px;border-bottom:2px solid rgba(247,184,1,0.3);text-align:right;color:var(--gold);font-weight:700;">$9,525</td>
+          <td style="padding:13px 16px;border-bottom:2px solid rgba(247,184,1,0.3);text-align:right;">+$5,000</td>
+          <td style="padding:13px 16px;border-bottom:2px solid rgba(247,184,1,0.3);text-align:right;color:var(--teal);font-weight:700;">+$120,000</td>
+        </tr>
+        <tr style="background:rgba(247,184,1,0.07);">
+          <td style="padding:14px 16px;font-weight:800;font-size:.95rem;">Weekly Total</td>
+          <td style="padding:14px 16px;text-align:right;font-weight:700;">$28,875</td>
+          <td style="padding:14px 16px;text-align:right;font-weight:800;color:var(--gold);font-size:.95rem;">$56,875</td>
+          <td style="padding:14px 16px;text-align:right;font-weight:800;">+$28,000</td>
+          <td style="padding:14px 16px;text-align:right;font-weight:800;color:var(--teal);font-size:.95rem;">+$672,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Staircase -->
+  <div class="fi" style="margin-bottom:28px;">
+    <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:2px;color:var(--muted);font-weight:600;margin-bottom:16px;">Revenue Staircase — How We Get From ~$693K to $1.4M</div>
+    <div style="margin-bottom:10px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;"><span style="font-size:.78rem;color:var(--muted);">Overall current baseline</span><span style="font-size:.82rem;font-weight:700;">$693,000</span></div>
+      <div style="height:32px;border-radius:6px;background:linear-gradient(90deg,#075064,#043d4d);width:51%;display:flex;align-items:center;padding:0 12px;"><span style="font-size:.7rem;color:var(--muted);">$28.9K/week × 24 weeks</span></div>
+    </div>
+    <div style="margin-bottom:10px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;"><span style="font-size:.78rem;color:var(--gold);font-weight:600;">+ Open Mon & Tue (closed today)</span><span style="font-size:.82rem;font-weight:700;color:var(--gold);">+$96,000</span></div>
+      <div style="height:32px;border-radius:6px;border:2px dashed rgba(247,184,1,0.55);background:rgba(247,184,1,0.07);width:63%;display:flex;align-items:center;padding:0 12px;"><span style="font-size:.7rem;color:var(--gold);">$0 → $2K/day × opening 2 nights × 24 weeks</span></div>
+    </div>
+    <div style="margin-bottom:10px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;"><span style="font-size:.78rem;color:var(--gold);font-weight:600;">+ Wed & Thu Doubling</span><span style="font-size:.82rem;font-weight:700;color:var(--gold);">+$216,000</span></div>
+      <div style="height:32px;border-radius:6px;border:2px dashed rgba(247,184,1,0.55);background:rgba(247,184,1,0.07);width:81%;display:flex;align-items:center;padding:0 12px;"><span style="font-size:.7rem;color:var(--gold);">$3.5K→$7.5K Wed · $3.5K→$8.5K Thu × 24 weeks</span></div>
+    </div>
+    <div style="margin-bottom:18px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;"><span style="font-size:.78rem;color:var(--gold);font-weight:600;">+ Weekend Growth (Fri–Sun)</span><span style="font-size:.82rem;font-weight:700;color:var(--gold);">+$360,000</span></div>
+      <div style="height:32px;border-radius:6px;border:2px dashed rgba(247,184,1,0.55);background:rgba(247,184,1,0.07);width:100%;display:flex;align-items:center;padding:0 12px;"><span style="font-size:.7rem;color:var(--gold);">Fri $8.7K→$13.7K · Sat $8.7K→$13.7K · Sun $4.5K→$9.5K × 24 weeks</span></div>
+    </div>
+    <div style="background:var(--card);border:1px solid rgba(247,184,1,0.3);border-radius:12px;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+      <div>
+        <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--muted);margin-bottom:4px;">Target Season Revenue</div>
+        <div style="font-family:'DM Serif Display',serif;font-size:2rem;color:var(--gold);">$1,365,000 / season</div>
+        <div style="font-size:.78rem;color:var(--muted);margin-top:4px;">+$672K across the week (incl. opening Mon & Tue)</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-family:'DM Serif Display',serif;font-size:2.4rem;color:var(--teal);">+97%</div>
+        <div style="font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">Revenue Growth</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="g3 fi">
+    <div class="card" style="text-align:center;">
+      <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--muted);margin-bottom:8px;">Total Uplift</div>
+      <div style="font-family:'DM Serif Display',serif;font-size:2rem;color:var(--gold);">+$672K</div>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:5px;">+$28K/week — seven nights once Mon & Tue are open</div>
+    </div>
+    <div class="card" style="text-align:center;">
+      <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--teal);margin-bottom:8px;">Target Season Revenue</div>
+      <div style="font-family:'DM Serif Display',serif;font-size:2rem;">$1,365,000</div>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:5px;">$56.8K/week × 24 weeks</div>
+    </div>
+    <div class="card card-gold" style="text-align:center;">
+      <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--gold);margin-bottom:8px;">Revenue Growth</div>
+      <div style="font-family:'DM Serif Display',serif;font-size:2rem;color:var(--gold);">+97%</div>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:5px;">Day-level targeting alone</div>
+    </div>
+  </div>
+  <div class="dd-wrap fi">
+    <a href="uplift.html" class="dd-btn">See the Full Uplift Strategy &nbsp;→</a>
+    <div class="dd-label">Day-by-day growth tactics · Exact programming & how each target gets hit</div>
+  </div>
+</section>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     EVENTS & WEDDINGS
+═══════════════════════════════════════ -->
+<div id="events">
+<section class="sec">
+  <div class="sec-ew fi">The Untapped Goldmine</div>
+  <h2 class="sec-h2 fi">The Eastern Shore Does<br>Thousands of Weddings a Year.<br>None of Their After-Parties Are Here. <span style="color:var(--coral);">Yet.</span></h2>
+  <p class="sec-sub fi">Here's something your competition hasn't figured out: the most lucrative guests aren't the ones who walk in off the street. <strong>They're the ones who reserve the entire bar.</strong> The Eastern Shore — St. Michaels, Oxford, Kent Island, Tilghman Island — hosts some of the most sought-after waterfront weddings on the East Coast. Every single couple who gets married within 30 miles of this dock needs an after-party venue. Right now, they're going somewhere else. A tiki bar on the water, with a dock they can arrive by boat? That's not a bar. That's a destination.</p>
+
+  <div class="card card-coral fi" style="margin-bottom:36px;display:flex;align-items:center;gap:28px;flex-wrap:wrap;padding:32px 36px;">
+    <div style="font-size:2.5rem;">💍</div>
+    <div style="flex:1;min-width:220px;">
+      <div style="font-weight:700;font-size:1rem;margin-bottom:6px;">$5,000 Event Revenue — Not in the Bar Baseline</div>
+      <div style="font-size:.84rem;color:var(--muted);line-height:1.7;">The <strong style="color:var(--cream);">$693K full-season baseline</strong> is <strong>bar and walk-in sales only</strong> (Wed–Sun nights in the model). Private buyouts and ticketed packages are a <strong>separate line</strong>. For underwriting we use a conservative <strong>$5,000</strong> in <strong>event revenue for the season</strong> — it does <strong>not</strong> flow into the day bars, the uplift table, or the calculator baseline. Upside from weddings, corporate, and buyouts can land far above that once the pipeline is warm.</div>
+    </div>
+    <div style="text-align:center;flex-shrink:0;">
+      <div style="font-family:'DM Serif Display',serif;font-size:2.2rem;color:var(--coral);">+$5K</div>
+      <div style="font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">Events (separate)</div>
+    </div>
+  </div>
+
+  <div class="event-grid fi">
+    <div class="event-card">
+      <div class="event-card-icon">🥂</div>
+      <div class="event-card-title">Wedding After-Parties</div>
+      <div class="event-card-desc">Couples married at Wades Point, Inn at Perry Cabin, and Chesapeake Bay Beach Club have nowhere fun to take their 100 guests after 10pm. A tiki bar with a dock and a DJ is the obvious answer — and it books as far out as the wedding itself.</div>
+      <div class="event-card-val">$6,000–$12,000 per buyout · 2 per month avg</div>
+    </div>
+    <div class="event-card">
+      <div class="event-card-icon">🍾</div>
+      <div class="event-card-title">Rehearsal Dinners</div>
+      <div class="event-card-desc">The night before the wedding, 30–60 guests want somewhere relaxed and memorable. A waterfront tiki bar with custom cocktails and a sunset? It sells itself. Margin is high — it's just drinks and light food on a reserved section of the dock.</div>
+      <div class="event-card-val">$3,000–$6,000 per event · 3–4 per month</div>
+    </div>
+    <div class="event-card">
+      <div class="event-card-icon">👰</div>
+      <div class="event-card-title">Bachelorette & Bachelor Parties</div>
+      <div class="event-card-desc">The Eastern Shore is a top bachelorette destination for the DC/Baltimore market. Groups of 10–20 women arrive by boat, by bus, by Uber. They spend big, they stay late, and every single one of them posts it. One bachelorette party = 20 Instagram stories with the bar tagged.</div>
+      <div class="event-card-val">$2,000–$5,000 per group · high frequency</div>
+    </div>
+    <div class="event-card">
+      <div class="event-card-icon">🏢</div>
+      <div class="event-card-title">Corporate & Team Outings</div>
+      <div class="event-card-desc">DC and Annapolis companies run team retreats to the Shore all summer. Happy hours, client entertainment, quarterly kickoffs — a private dock bar with catered food and open-bar packages is exactly what HR is looking for when they Google "unique venue Eastern Shore Maryland."</div>
+      <div class="event-card-val">$4,000–$8,000 per outing · growing market</div>
+    </div>
+  </div>
+
+  <!-- Events math -->
+  <div class="card fi" style="margin-top:28px;">
+    <div style="font-family:'DM Serif Display',serif;font-size:1.3rem;font-weight:400;margin-bottom:20px;text-align:center;">Events Revenue Projection — Separate From Bar Baseline</div>
+    <div style="display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:24px;max-width:420px;margin-left:auto;margin-right:auto;">
+      <div style="background:rgba(255,107,53,0.07);border:1px solid rgba(255,107,53,0.2);border-radius:12px;padding:18px;text-align:center;">
+        <div style="font-size:.68rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--coral);margin-bottom:6px;">Season Event Total (separate line)</div>
+        <div style="font-family:'DM Serif Display',serif;font-size:1.8rem;">$5,000</div>
+        <div style="font-size:.75rem;color:var(--muted);margin-top:3px;">Not included in $693K bar baseline</div>
+      </div>
+    </div>
+    <div style="background:rgba(247,184,1,0.05);border:1px solid var(--border);border-radius:10px;padding:16px 20px;text-align:center;font-size:.84rem;color:var(--muted);">
+      <strong style="color:var(--cream);">Bar baseline and the slider stay bar-only.</strong> Event packages, coordination, and any fee on event revenue are <strong style="color:var(--gold);">worked out in person</strong> — not locked in here.
+    </div>
+  </div>
+  <div class="dd-wrap fi">
+    <a href="events.html" class="dd-btn">See the Full Events Playbook &nbsp;→</a>
+    <div class="dd-label">Venue packages · Pricing · How we book, market &amp; coordinate every event</div>
+  </div>
+</section>
+</div>
+
+<!-- ═══════════════════════════════════════
+     MERCH
+═══════════════════════════════════════ -->
+<section class="sec">
+  <div class="sec-ew fi">The Quick Win Nobody Talks About</div>
+  <h2 class="sec-h2 fi">Your Merch Table<br>Should Be Printing Money.</h2>
+  <p class="sec-sub fi">Right now, you're handing out walking billboards at near cost. A good hat with the right branding isn't just merchandise — <strong>it's a $35 ad that your customer pays for.</strong> Here's what it looks like before and after.</p>
+  <div class="merch-grid fi">
+    <div class="merch-card before">
+      <div class="merch-lbl">Right Now</div>
+      <ul class="merch-list">
+        <li>❌ Generic shirts at thin margins (~25%)</li>
+        <li>❌ No online store — in-bar only</li>
+        <li>❌ Same stuff every year, no reason to buy twice</li>
+        <li>❌ No brand identity people want to wear</li>
+        <li>❌ Earns roughly $5–10K per season</li>
+      </ul>
+    </div>
+    <div class="merch-card after">
+      <div class="merch-lbl">With This Plan</div>
+      <ul class="merch-list">
+        <li>✅ Premium hats, tees & branded tumblers (65% margin)</li>
+        <li>✅ Online store ships year-round to past guests</li>
+        <li>✅ Limited seasonal drops create real demand</li>
+        <li>✅ Big Owl brand people are proud to wear</li>
+        <li>✅ Better margins and product people actually want — upside for the bar, <strong>not</strong> baked into the revenue math above</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card card-gold fi" style="margin-top:20px;text-align:center;padding:28px 32px">
+    <div style="font-size:.65rem;text-transform:uppercase;letter-spacing:2px;color:var(--gold);margin-bottom:10px">Merch &amp; retail</div>
+    <p style="font-size:.88rem;color:var(--muted);line-height:1.65;max-width:560px;margin:0 auto;">Redesign, sourcing, and an online store are part of the execution plan. <strong style="color:var(--cream);">No merch revenue or profit is included</strong> in the bar baseline, uplift table, calculator, or the “simple math” summary — those lines are <strong style="color:var(--cream);">bar + the separate $5K event plug only</strong>.</p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     PULL QUOTE
+═══════════════════════════════════════ -->
+<div class="pullquote fi">
+  <p class="pq-text">"You keep every dollar you made last year.<br><em>I only make money when I grow yours.</em><br>If I fail — you owe me nothing."</p>
+  <div class="pq-attr">— The offer on the table</div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     CALCULATOR
+═══════════════════════════════════════ -->
+<div id="calculator">
+<div class="calc-inner">
+  <div class="sec-ew fi">Run the Numbers Yourself</div>
+  <h2 class="sec-h2 fi">Drag the Slider.<br>Watch Your Money Move.</h2>
+  <p class="sec-sub fi">The baseline is <strong>bar revenue only</strong> — not private events or buyouts (those are a separate line in the model). The slider shows total bar revenue at different multiples. <strong>How growth is shared gets decided in person</strong> — this is a picture of the upside, not a final contract.</p>
+
+  <div class="mult-display fi">
+    <div class="mult-num" id="multNum">2.0×</div>
+    <div class="mult-lbl">Revenue Multiplier</div>
+  </div>
+
+  <div class="slider-wrap fi">
+    <div class="slider-lbls">
+      <span>1× — Nothing changes</span>
+      <span style="color:var(--gold);font-weight:700" id="sliderValLabel">2.0× — Strong Season</span>
+      <span>4× — Full Send</span>
+    </div>
+    <div class="slider-track">
+      <div class="slider-fill" id="sFill" style="width:33.3%"></div>
+      <input type="range" id="rSlider" min="100" max="400" value="200" step="5">
+    </div>
+  </div>
+
+  <div class="rev-cards fi">
+    <div class="rc">
+      <div class="rc-lbl">Total Season Revenue</div>
+      <div class="rc-amt" id="rcTotal" style="color:var(--cream)">$1.39M</div>
+      <div class="rc-sub">Up from $693K baseline</div>
+    </div>
+    <div class="rc">
+      <div class="rc-lbl">Owners Keep</div>
+      <div class="rc-amt" id="rcOwner" style="color:var(--teal)">$1.21M</div>
+      <div class="rc-sub">Illustrative — sample split on growth (TBD)</div>
+    </div>
+    <div class="rc hl">
+      <div class="rc-lbl">Illustrative fee on growth</div>
+      <div class="rc-amt" id="rcFee" style="color:var(--gold)">$173K</div>
+      <div class="rc-sub">Model only — not final</div>
+    </div>
+  </div>
+
+  <div class="chart-wrap fi">
+    <canvas id="revChart" height="260"></canvas>
+  </div>
+  <div style="max-width:1120px;margin:0 auto;padding:0 48px;">
+    <div class="dd-wrap fi">
+      <a href="numbers.html" class="dd-btn">See the Full Financial Model &nbsp;→</a>
+      <div class="dd-label">3-year projections · Year-by-year targets · How the numbers flow</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     DEAL
+═══════════════════════════════════════ -->
+<div id="deal">
+<section class="sec">
+  <div class="sec-ew fi">The Offer</div>
+  <h2 class="sec-h2 fi">You Don't Pay Me<br>Unless I Grow Your Revenue.</h2>
+  <p class="sec-sub fi">No retainer. No monthly fee. Nothing in this deck locks in rates — <strong>we align on structure in person.</strong> Here's what each side is expected to bring.</p>
+
+  <div class="deal-grid fi">
+    <div class="deal-card theirs">
+      <h3>🦉 Big Owl Commits To:</h3>
+      <ul class="deal-list">
+        <li><span class="chk">✓</span> Run the bar the way you always have</li>
+        <li><span class="chk">✓</span> Approve programming and events before they go live</li>
+        <li><span class="chk">✓</span> Share weekly revenue totals so we can track growth</li>
+        <li><span class="chk">✓</span> Allow content creation on-site</li>
+        <li><span class="chk">✓</span> Support 4–5 signature weekly experiences</li>
+        <li><span class="chk">✓</span> Agree on fair compensation for growth and events — terms discussed in person</li>
+      </ul>
+    </div>
+    <div class="deal-card mine">
+      <h3>🎯 Marketing Side Commits To:</h3>
+      <ul class="deal-list">
+        <li><span class="chk">✓</span> 100% of ad spend — Facebook, Instagram, TikTok</li>
+        <li><span class="chk">✓</span> All content creation: photo, video, editing, posting</li>
+        <li><span class="chk">✓</span> Influencer outreach, coordination, and deliverables</li>
+        <li><span class="chk">✓</span> Event booking, marketing, and coordination</li>
+        <li><span class="chk">✓</span> Google/Maps optimization and ongoing management</li>
+        <li><span class="chk">✓</span> Merch redesign, sourcing, and online store setup</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="terms-box fi">
+    <div class="terms-title">The Deal Structure</div>
+    <div class="terms-sub">Illustrative bar math only · Rates &amp; structure finalized in person</div>
+    <div class="terms-math">
+      <div class="tm-row"><span class="tm-key">Your current season revenue (baseline)</span><span class="tm-val">$693,000</span></div>
+      <div class="tm-row"><span class="tm-key">Target after Year 1 (2× growth)</span><span class="tm-val gold">$1,386,000</span></div>
+      <div class="tm-row"><span class="tm-key">Illustrative owner retain @ 2× (sample model)</span><span class="tm-val teal">$1,212,750</span></div>
+      <div class="tm-row"><span class="tm-key">Illustrative gain vs. baseline @ 2×</span><span class="tm-val gold big">+$519,750</span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px;max-width:680px;margin-left:auto;margin-right:auto;">
+      <div style="background:rgba(0,0,0,.2);border-radius:12px;padding:18px;text-align:center;"><div style="font-size:1.4rem;margin-bottom:6px">🔒</div><div style="font-weight:700;font-size:.85rem;margin-bottom:3px">Your Baseline Protected</div><div style="font-size:.75rem;color:var(--muted)">~$693K baseline is always 100% yours</div></div>
+      <div style="background:rgba(0,0,0,.2);border-radius:12px;padding:18px;text-align:center;"><div style="font-size:1.4rem;margin-bottom:6px">📊</div><div style="font-weight:700;font-size:.85rem;margin-bottom:3px">New Money Only</div><div style="font-size:.75rem;color:var(--muted)">I never touch existing revenue</div></div>
+      <div style="background:rgba(0,0,0,.2);border-radius:12px;padding:18px;text-align:center;"><div style="font-size:1.4rem;margin-bottom:6px">🤝</div><div style="font-weight:700;font-size:.85rem;margin-bottom:3px">90-Day Exit</div><div style="font-size:.75rem;color:var(--muted)">If results don't show, walk away</div></div>
+    </div>
+  </div>
+  <div class="dd-wrap fi">
+    <a href="deal.html" class="dd-btn">Read the Full Deal Terms &nbsp;→</a>
+    <div class="dd-label">Complete term sheet · Revenue definitions · What each party controls</div>
+  </div>
+</section>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     TIMELINE
+═══════════════════════════════════════ -->
+<section class="sec">
+  <div class="sec-ew fi">What Happens Next</div>
+  <h2 class="sec-h2 fi">Two Weeks Until Opening.<br>Here's How We Use Them.</h2>
+  <p class="sec-sub fi">Speed is the only advantage we need. The bar next door has a head start — but they don't know what's coming.</p>
+  <div class="timeline fi">
+    <div class="tl-item">
+      <div class="tl-wk">This Week</div>
+      <div class="tl-title">Deal Signed. Machine Starts.</div>
+      <div class="tl-desc">Social profiles overhauled. Ad accounts created. Merch designs started. Event packages drafted. First influencer outreach sent. Content calendar built for the full season.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-wk">Week 2 — Opening Day</div>
+      <div class="tl-title">We Come Out Swinging.</div>
+      <div class="tl-desc">Opening day content shoot. Facebook and Instagram ads go live. First viral video posted. "First 10 Boats Friday" announced in every Chesapeake boating group. Sunset Bell rings for the first time — on camera.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-wk">Weeks 3–6</div>
+      <div class="tl-title">First Viral Moments Land.</div>
+      <div class="tl-desc">Floating mini golf hits the dock. First crab race filmed and posted. Paddleboard delivery video goes live. Dollar bill ceiling gets started. First private event booked.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-wk">Weeks 6–12</div>
+      <div class="tl-title">Momentum Is Undeniable.</div>
+      <div class="tl-desc">Merch store live with a summer drop. Mermaid Thursdays are packed. Wed & Thu midweek climbing. Event calendar 60% booked through August. Revenue tracking shows clear growth vs. prior season.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-wk">End of Season 1</div>
+      <div class="tl-title">Audit, Payout, Plan Season 2.</div>
+      <div class="tl-desc">Revenue audit, settle accounts on anything owed, and a data-driven playbook for Year 2. Big Owl is the most talked-about bar on the Eastern Shore — and we're just getting started.</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     CLOSE
+═══════════════════════════════════════ -->
+<div id="close">
+<section class="sec" style="max-width:100%;padding:100px 48px;text-align:center;background:linear-gradient(180deg,transparent,rgba(247,184,1,.04));">
+  <div class="close-inner">
+    <div class="sec-ew fi" style="text-align:center;margin-bottom:14px">Two Weeks. One Decision.</div>
+    <h2 class="close-h2 fi">You Risk <span class="coral">Nothing.</span><br>You Gain <span class="gold">Everything.</span></h2>
+    <p class="close-sub fi">The neighbor figured it out. Your customers are already on their phones. The season opens in two weeks. This deal doesn't get better with time — it just gets closer to "too late."</p>
+
+    <div class="close-cards fi">
+      <div class="cc">
+        <div class="cc-icon">💰</div>
+        <div class="cc-title">$0 Upfront</div>
+        <div class="cc-desc">You never write a check. Not once.</div>
+      </div>
+      <div class="cc hl">
+        <div class="cc-icon">📈</div>
+        <div class="cc-title">+97% Year 1</div>
+        <div class="cc-desc">Conservative. Based on your actual numbers.</div>
+      </div>
+      <div class="cc">
+        <div class="cc-icon">🤝</div>
+        <div class="cc-title">90-Day Out</div>
+        <div class="cc-desc">Results don't show? Walk away clean.</div>
+      </div>
+    </div>
+
+    <div class="fi" style="background:var(--card);border:1px solid var(--border);border-radius:20px;padding:40px;max-width:600px;margin:0 auto 48px;">
+      <div style="font-family:'DM Serif Display',serif;font-size:1.3rem;margin-bottom:16px;">The Simple Math</div>
+      <p style="font-size:.75rem;color:var(--muted);margin-bottom:14px;text-align:left;line-height:1.5;">Bar baseline is <strong style="color:var(--cream);">walk-in / POS bar only</strong> ($693K). The <strong style="color:var(--cream);">$5K</strong> event figure is additive and not part of that baseline.</p>
+      <div style="display:flex;flex-direction:column;gap:12px;font-size:.9rem;text-align:left;">
+        <div style="display:flex;justify-content:space-between;"><span style="color:var(--muted);">What you make today (season):</span><span style="font-weight:700;">$693,000</span></div>
+        <div style="display:flex;justify-content:space-between;"><span style="color:var(--muted);">Year 1 target (bar + events):</span><span style="font-weight:700;color:var(--gold);">$1,391,000</span></div>
+        <div style="display:flex;justify-content:space-between;"><span style="color:var(--muted);">Illustrative your take (sample — finalize in person):</span><span style="font-weight:700;color:var(--teal);">$1,216,250</span></div>
+        <div style="height:1px;background:rgba(255,255,255,.06);"></div>
+        <div style="display:flex;justify-content:space-between;"><span style="color:var(--muted);">Net new money in your pocket:</span><span style="font-weight:700;color:var(--gold);font-size:1.1rem;">+$523,250</span></div>
+      </div>
+    </div>
+
+    <a href="#deal" class="close-btn fi">Let's Shake On It &nbsp;🤝</a>
+    <div style="margin-top:28px;" class="fi">
+      <a href="close.html" class="dd-btn" style="border-color:var(--gold);color:var(--gold);">See What Happens the Day We Sign &nbsp;→</a>
+      <div class="dd-label">Week-by-week launch plan · First moves · What success looks like at 30, 60, 90 days</div>
+    </div>
+
+    <p class="final-quote fi">"The only way this doesn't work for you<br>is if I fail to grow the business.<br><em>And if that happens, you owe me absolutely nothing."</em></p>
+  </div>
+</section>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════
+     NOW VS AFTER (moved to bottom)
+═══════════════════════════════════════ -->
+<section class="sec">
+  <div class="prob-wrap fi">
+    <div class="prob-card bad">
+      <div style="font-size:1.8rem;margin-bottom:10px">😮‍💨</div>
+      <h3>Big Owl Right Now</h3>
+      <ul class="prob-list">
+        <li>🚤 Only boats & walk-ins finding you</li>
+        <li>📱 Zero social presence driving new people in</li>
+        <li>🔇 No moments worth filming, sharing, or talking about</li>
+        <li>👕 Merch barely covering the cost to print it</li>
+        <li>📅 Mon & Tue — the only nights the dock sits empty; $0 while competitors capture those nights</li>
+        <li>🔍 Invisible on Google, Facebook, and TikTok</li>
+      </ul>
+    </div>
+    <div class="prob-card good">
+      <div style="font-size:1.8rem;margin-bottom:10px">🔥</div>
+      <h3>Big Owl After This Deal</h3>
+      <ul class="prob-list">
+        <li>📍 Digital targeting — the right crowd within ~20 miles of Kent Island, not everyone on the highway</li>
+        <li>🎬 Viral content running on TikTok and Reels every week</li>
+        <li>🦀 Signature events people plan their whole weekend around</li>
+        <li>👕 Premium merch and retail done right — brand lift, not counted in the bar totals in this deck</li>
+        <li>📅 Open seven nights with a revenue target every single night</li>
+        <li>💍 Private events & wedding after-parties booked months out</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>🦉 The Big Owl Tiki Bar — Private Marketing Proposal — Summer 2026</footer>
+
+<script>
+// ── SCROLL FADE-INS ─────────────────────────
+const fis = document.querySelectorAll('.fi');
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('vis'); });
+}, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+fis.forEach(el => obs.observe(el));
+
+// ── REVENUE CALCULATOR ───────────────────────
+const BASELINE = 693000;
+const SAMPLE_FEE_ON_GROWTH = 0.25; /* illustrative model only — not final */
+
+const slider    = document.getElementById('rSlider');
+const sFill     = document.getElementById('sFill');
+const multNum   = document.getElementById('multNum');
+const sliderLbl = document.getElementById('sliderValLabel');
+const rcTotal   = document.getElementById('rcTotal');
+const rcOwner   = document.getElementById('rcOwner');
+const rcFee = document.getElementById('rcFee');
+
+function fmt(n) {
+  if (n >= 1000000) return '$' + (n/1000000).toFixed(2).replace(/\.?0+$/,'') + 'M';
+  if (n >= 1000)    return '$' + Math.round(n/1000) + 'K';
+  return '$' + Math.round(n);
+}
+function label(m) {
+  if (m <= 1.2) return 'No Change';
+  if (m <= 1.5) return 'Modest Growth';
+  if (m <= 2.0) return 'Strong Season';
+  if (m <= 2.5) return 'Great Year';
+  if (m <= 3.0) return 'Incredible Season';
+  return 'Full Send 🔥';
+}
+
+// Chart
+const ctx = document.getElementById('revChart').getContext('2d');
+const revChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+      labels: ['Current Baseline', 'New Total Revenue', "Owners' Share", 'Illustrative fee'],
+    datasets: [{
+      data: [BASELINE, BASELINE*2, BASELINE + (BASELINE * (2-1)) * (1-SAMPLE_FEE_ON_GROWTH), (BASELINE * (2-1)) * SAMPLE_FEE_ON_GROWTH],
+      backgroundColor: [
+        'rgba(122,181,194,0.35)',
+        'rgba(247,184,1,0.7)',
+        'rgba(0,168,150,0.7)',
+        'rgba(247,184,1,0.95)',
+      ],
+      borderColor: [
+        'rgba(122,181,194,0.7)',
+        'rgba(247,184,1,1)',
+        'rgba(0,168,150,1)',
+        'rgba(247,184,1,1)',
+      ],
+      borderWidth: 1,
+      borderRadius: 8,
+    }]
+  },
+  options: {
+    responsive: true,
+    animation: { duration: 200 },
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: c => ' ' + fmt(c.raw) } }
+    },
+    scales: {
+      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#7ab5c2', font: { size: 11, family: 'DM Sans' } } },
+      y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#7ab5c2', font: { size: 11, family: 'DM Sans' }, callback: v => fmt(v) } }
+    }
+  }
+});
+
+function update() {
+  const mult  = slider.value / 100;
+  const total = BASELINE * mult;
+  const inc   = Math.max(0, total - BASELINE);
+  const pEarn = inc * SAMPLE_FEE_ON_GROWTH;
+  const oGet  = total - pEarn;
+  const pct   = (slider.value - 100) / 300 * 100;
+
+  sFill.style.width     = pct + '%';
+  multNum.textContent   = mult.toFixed(1) + '×';
+  sliderLbl.textContent = mult.toFixed(1) + '× — ' + label(mult);
+  rcTotal.textContent   = fmt(total);
+  rcOwner.textContent   = fmt(oGet);
+  rcFee.textContent = fmt(pEarn);
+
+  revChart.data.datasets[0].data = [BASELINE, total, oGet, pEarn];
+  revChart.update('none');
+}
+slider.addEventListener('input', update);
+update();
+</script>
+<script src="js/countdown.js"></script>
+</body>
+</html>
